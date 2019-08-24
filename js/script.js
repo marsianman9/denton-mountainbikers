@@ -1,5 +1,5 @@
 window.onload = function() {
-  var deadLine = new Date('July 25, 2022 12:00:00').getTime();
+  var deadLine = new Date('July 25, 2020 12:00:00').getTime();
   var x = setInterval(function() {
     var now = new Date().getTime();
     var t = deadLine - now;
